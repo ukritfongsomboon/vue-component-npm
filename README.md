@@ -111,19 +111,13 @@ export default HelloWorldSimple
 
 ```json
 {
-  ...
-
+  . . .
   "scripts":{
-    
-    ...
-
+    . . .
     "build-library": "vue-cli-service build --target lib --name @ukrit.fb/vue-plugin-npm-example ./src/install.js",
-
-    ...
+    . . .
   }
-
-...
-
+. . .
 }
 ```
 
