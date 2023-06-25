@@ -110,5 +110,9 @@ npm run build-library
 ## 6. Push Package to NPM
 
 ## 7. Update Package
+สำหรับการ Update Package หลังจากที่ Publish จะตั้งทำขั้นตอนดังนี้
+
+- เมื่อเเก้ไข Package เรียบร้อยแล้วจะต้องเปลี่ยน version ใน `package.json`
+- ทำขั้นตอนที่ 5 และ 6
 
 ## 8. Used Package from NPM
