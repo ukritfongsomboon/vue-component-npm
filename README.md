@@ -57,6 +57,21 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 2. Create UI Component in Project
+สร้างไฟล์ `ComponentA.vue` ให้อยู่ในตำแหน่ง `./src/components/ComponentA.vue` โดยในไฟล์จะมีข้อมูลดังนี้
+
+``` HTML
+<template>
+  <div>ComponentA</div>
+</template>
+<script>
+export default {
+  setup () {
+    return {}
+  }
+}
+</script>
+<style lang="scss" scoped></style>
+```
 
 ## 3. Config Plugin
 
