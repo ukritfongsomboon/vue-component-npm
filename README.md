@@ -138,6 +138,11 @@ npm login
 ``` sh 
 npm publish
 ```
+หากว่าต้องการยกเลิกการ Publish Version ได้ Version หนึ่งของ Package นั้นสามารถทำได้โดย
+
+```sh
+npm unpublish @ukrit.fb/vue-plugin-npm-example@<version name> 
+```
 
 ## 7. Update Package
 สำหรับการ Update Package หลังจากที่ Publish จะตั้งทำขั้นตอนดังนี้
