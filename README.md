@@ -108,11 +108,15 @@ export default HelloWorldSimple
 และเพิ่ม Script ในการ Build Package
 
 ```json
-{..
-  "scripts":{..
+{
+  ...
+  "scripts":{
+    ..
     "build-library": "vue-cli-service build --target lib --name @ukrit.fb/vue-plugin-npm-example ./src/install.js",
-  ..}
-..}
+  ...
+  }
+...
+}
 ```
 
 ## 5. Build Package
