@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <CoponentA></CoponentA>
+    <CoponentB></CoponentB>
   </div>
 </template>
 
+<script>
+import CoponentA from '@/components/ComponentA.vue'
+import CoponentB from '@/components/ComponentB.vue'
+export default {
+  components: {
+    CoponentA,
+    CoponentB
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

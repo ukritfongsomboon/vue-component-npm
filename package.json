@@ -1,10 +1,19 @@
 {
-  "name": "ukrit-vue-v2-component-npm-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@ukrit.fb/vue-plugin-npm-example",
+  "version": "1.1.1",
+  "private": false,
+  "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name @ukrit.fb/vue-plugin-npm-example ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
