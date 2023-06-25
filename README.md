@@ -117,7 +117,7 @@ export default HelloWorldSimple
     "build-library": "vue-cli-service build --target lib --name @ukrit.fb/vue-plugin-npm-example ./src/install.js",
     . . .
   }
-. . .
+  . . .
 }
 ```
 
