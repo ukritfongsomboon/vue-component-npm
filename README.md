@@ -108,6 +108,17 @@ npm run build-library
 ```
 
 ## 6. Push Package to NPM
+สำหรับการ Publish นั้นจะต้องมี Account ของ NPM เสียก่อนสามารถสมัครได้ [ที่นี้](https://www.npmjs.com/) หลังจากที่สมัครและยืนยัง Email ที่ใช้สมัครแล้ว ให้ทำการเปิด Terminal แล้วทำการ 
+
+``` sh
+npm login
+```
+
+จะเป็นการเปิดหน้าเว็บ Browser เพื่อ login หลังจาก ที่ Login เป็นที่เรียบร้อยแล้วเราก็สามารถ Publish Package ได้โดยใช้คำสั่ง
+
+``` sh 
+npm publish
+```
 
 ## 7. Update Package
 สำหรับการ Update Package หลังจากที่ Publish จะตั้งทำขั้นตอนดังนี้
