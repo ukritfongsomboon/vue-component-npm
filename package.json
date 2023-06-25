@@ -1,6 +1,6 @@
 {
   "name": "@ukrit.fb/vue-plugin-npm-example",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
   "license": "MIT",
@@ -13,6 +13,15 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "ukrit.fb",
+    "ukrit",
+    "example",
+    "vuejs",
+    "vue",
+    "npm",
+    "package"
   ],
   "publishConfig": {
     "access": "public"
