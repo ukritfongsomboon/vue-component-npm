@@ -1,9 +1,16 @@
 {
   "name": "@ukrit.fb/vue-plugin-npm-example",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": false,
   "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
   "license": "MIT",
+  "homepage": "https://github.com/ukritfongsomboon/vue-component-npm",
+  "url": "https://github.com/ukritfongsomboon/vue-component-npm/issues",
+  "email": "ukrit.fb@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukritfongsomboon/vue-component-npm.git"
+  },
   "files": [
     "dist"
   ],
