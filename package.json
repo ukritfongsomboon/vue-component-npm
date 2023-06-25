@@ -1,6 +1,6 @@
 {
   "name": "@ukrit.fb/vue-plugin-npm-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
   "license": "MIT",

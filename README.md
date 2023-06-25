@@ -96,14 +96,14 @@ export default HelloWorldSimple
 
 ```json
 {
-  ...
+  . . .
   "private": false,
   "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
   "files": ["dist"],
   "publishConfig": {
     "access": "public"
   },
-  ...
+  . . .
 }
 ```
 
@@ -148,3 +148,30 @@ npm publish
 - ทำขั้นตอนที่ 5 และ 6
 
 ## 8. Used Package from NPM
+หลังจากที่เรานั้นเตรียม Package และ Publish ไปยัง NPM Registry เรียบร้อยแล้วเราสามารถเข้าไป install Project ที่เราต้องการได้ด้วยคำสั่ง 
+
+``` sh
+npm i @ukrit.fb/vue-plugin-npm-example --legacy-peer-deps
+```
+
+โดยหลังจากที่เรา install package เสร็จแล้วเราสามารถเรียกใช้ Plugin ได้โดยไปทำการ Registry plugin ในไฟล์​ `main.js` 
+
+``` javascript 
+import Vue from 'vue'
+import App from './App.vue'
+import './registerServiceWorker'
+import router from './router'
+import store from './store'
+import componentA from '@ukrit.fb/vue-plugin-npm-example' // import 
+
+Vue.config.productionTip = false
+Vue.use(componentA) // เรียกใช้งาน plugin
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+```
+
+##  🎉 เสร็จสิ้น
+เพียงเท่านี้เราก็จะสามารถสร้าง UI Component เป็น Plugin ไว้ใช้งานได้แล้ว
