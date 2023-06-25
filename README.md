@@ -95,14 +95,16 @@ export default HelloWorldSimple
 แก้ไข `package.json` โดยมีการเพิ่ม
 
 ```json
-{..
+{
+  ...
   "private": false,
   "main": "./dist/@ukrit.fb/vue-plugin-npm-example.common.js",
   "files": ["dist"],
   "publishConfig": {
     "access": "public"
   },
-..}
+  ...
+}
 ```
 
 และเพิ่ม Script ในการ Build Package
@@ -110,12 +112,18 @@ export default HelloWorldSimple
 ```json
 {
   ...
+
   "scripts":{
-    ..
+    
+    ...
+
     "build-library": "vue-cli-service build --target lib --name @ukrit.fb/vue-plugin-npm-example ./src/install.js",
-  ...
+
+    ...
   }
+
 ...
+
 }
 ```
 
